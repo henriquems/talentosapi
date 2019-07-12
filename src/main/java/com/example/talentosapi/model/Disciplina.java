@@ -18,7 +18,7 @@ import javax.validation.constraints.Size;
  */
 @Entity
 @Table(name="disciplina")
-@NamedQuery(name="Disciplina.findAll", query="SELECT d FROM Disciplina d")
+@NamedQuery(name="Disciplina.findAll", query="SELECT dis FROM Disciplina dis")
 public class Disciplina implements Serializable {
 	private static final long serialVersionUID = 1L;
 
